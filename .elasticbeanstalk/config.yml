@@ -1,12 +1,12 @@
 branch-defaults:
  master:
-   environment: ebdev-env
+   environment: Ebdevenv-env
 environment-defaults:
  e:
    branch: null
    repository: null
 global:
- application_name: CircleCI
+ application_name: ebdev-env
  default_ec2_keyname: null
  default_platform: arn:aws:elasticbeanstalk:us-west-2::platform/Docker running on 64bit Amazon Linux/2.14.0
  default_region: us-west-2
